@@ -32,7 +32,8 @@ python main-FB.py --dataset FB-AUTO --batch_size 800 --lr 0.0001 --dr 0.995 --in
 
 #### 2. Fixed Arity Knowledge Hypergraph
 ```
-
+## JF17K-4 dataset
+python main-4ary.py --dataset JF17K-4 --batch_size 600 --lr 0.00021 --dr 0.995 --input_drop 0.5 --hidden_drop 0.2 --hidden_drop 0.5 --dembed 500 --RAD_Size 3 --num_heads 4
 ```
 
 
