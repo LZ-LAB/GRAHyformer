@@ -32,12 +32,21 @@ python main-FB.py --dataset FB-AUTO --batch_size 800 --lr 0.0001 --dr 0.995 --in
 
 #### 2. Fixed Arity Knowledge Hypergraph
 ```
-## FB-AUTO-2 dataset
+## JF17K-3 dataset
 
 ## WikiPeople-3 dataset
 
 ## JF17K-4 dataset
 python main-4ary.py --dataset JF17K-4 --batch_size 600 --lr 0.00021 --dr 0.995 --input_drop 0.5 --hidden_drop 0.2 --feature_drop 0.5 --dembed 500 --RAD_Size 3 --num_heads 4
+
+## WikiPeople-4 dataset
+
+
+## JF17K-5 dataset
+python main-5ary.py --dataset JF17K-5 --batch_size 600 --lr 0.00031 --dr 0.995 --input_drop 0.6 --hidden_drop 0.1 --feature_drop 0.4 --dembed 300 --RAD_Size 7 --num_heads 12
+
+## WikiPeople-5 dataset
+python main-5ary.py --dataset WikiPeople-5 --batch_size 700 --lr 0.00056 --dr 0.999 --input_drop 0.6 --hidden_drop 0.5 --feature_drop 0.2 --dembed 200 --RAD_Size 3 --num_heads 4
 ```
 
 
