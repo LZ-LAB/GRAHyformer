@@ -22,12 +22,8 @@ The version of Python and major packages needed to run the code:
 ## JF17K dataset
 python main-JF.py --dataset JF17K --batch_size 400 --lr 0.00020 --dr 0.999 --input_drop 0.5 --hidden_drop 0.4 --feature_drop 0.2 --dembed 100 --RAD_Size 2 --num_heads 4
 
-
 ## WikiPeople dataset
 python main-WP.py --dataset WikiPeople --batch_size 700 --lr 0.00025 --dr 0.995 --input_drop 0.7 --hidden_drop 0.9 --feature_drop 0.5 --dembed 500 --RAD_Size 3 --num_heads 1
-
-
-
 
 ## FB-AUTO dataset
 python main-FB.py --dataset FB-AUTO --batch_size 800 --lr 0.0001 --dr 0.995 --input_drop 0.6 --hidden_drop 0.5 --feature_drop 0.5 --dembed 400 --RAD_Size 6 --num_heads 4
