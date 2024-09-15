@@ -1,4 +1,4 @@
-# The GRAHyformer Model
+# The HyGRAformer Model
 This paper has been submitted to The Web Conference 2025 (WWW 2025).
 
 
