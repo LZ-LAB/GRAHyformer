@@ -15,7 +15,7 @@ The version of Python and major packages needed to run the code:
 
 ## How to Run
 
-### GRAHyformer
+### HyGRAformer
 
 #### 1. Mixed Arity Knowledge Hypergraph
 ```
