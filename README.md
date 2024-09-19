@@ -99,7 +99,7 @@ python main-WP.py --dataset WikiPeople --batch_size 128 --lr 0.003 --dr 0.995 --
 python main-FB.py --dataset FB-AUTO --batch_size 64 --lr 0.005 --dr 0.995 --K 10 --rdim 50 --m 2 --drop_role 0.2 --drop_ent 0.4
 ```
 
-### PosKHG - https://github.com/zirui-chen/PosKHG
+#### PosKHG - https://github.com/zirui-chen/PosKHG
 ```
 1. JF17K dataset
 python main-JF.py --dataset JF17K --batch_size 64 --lr 0.005 --dr 0.995 --K 10 --rdim 50 --m 2 --drop_role 0.2 --drop_ent 0.4
@@ -120,6 +120,4 @@ python main.py -dataset *** -lr 0.08 -nr 10 -window_size 2 -batch_size 128 -num_
 python main.py -dataset *** -lr 0.08 -nr 100 -window_size 2 -batch_size 512 -num_iterations 500
 ```
 
-
-
-#### 
+#### Supplementary Information
